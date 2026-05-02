@@ -44,6 +44,14 @@ export const Navigation = () => {
           >
             Mass test
           </ForesightLink>
+          <ForesightLink
+            to="/events"
+            name="nav-events"
+            className="text-gray-700 hover:text-gray-900"
+            onPrefetch={() => routeImports["/events"]()}
+          >
+            Events
+          </ForesightLink>
           <span className="w-px h-5 bg-gray-300" />
           <label className="flex items-center gap-1 text-xs text-gray-700">
             Reactivate
