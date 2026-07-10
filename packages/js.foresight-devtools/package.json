@@ -49,7 +49,7 @@
   "llms": "https://foresightjs.com/llms.txt",
   "llmsFull": "https://foresightjs.com/llms-full.txt",
   "peerDependencies": {
-    "js.foresight": "^4.2.1"
+    "js.foresight": "^4.2.2"
   },
   "devDependencies": {
     "@types/node": "^25.5.2",
