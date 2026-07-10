@@ -1,5 +1,11 @@
 # js.foresight
 
+## 4.2.2
+
+### Patch Changes
+
+- [#175](https://github.com/spaansba/ForesightJS/pull/175) [`13030e3`](https://github.com/spaansba/ForesightJS/commit/13030e325cb69f088ed18acdb2a9a41e9e6c8723) Thanks [@spaansba](https://github.com/spaansba)! - Refactor settings dispatch so each handler reacts to its own setting changes via `onSettingsChanged`, instead of the manager reaching into handler internals.
+
 ## 4.2.1
 
 ### Patch Changes
